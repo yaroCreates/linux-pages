@@ -131,8 +131,8 @@ span i {
 
 .form-area {
     position: relative;
-    width: 41.19rem;
-    height: 42.75rem;
+    width: 47.5rem;
+    height: 46.86rem;
     background: #FFFFFF;
     box-shadow: 0px 4px 29px #F0F3FF;
     border-radius: 35px;
@@ -194,6 +194,45 @@ span i {
     font-weight: 400;
     margin-bottom: 1rem;
 }
+
+.field-question-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input-fields {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-fields input:first-child {
+    width: 40%;
+    margin-right: 1rem;
+}
+.input-fields input:nth-child(2) {
+    width: 60%;
+    margin-right: 1rem;
+}
+
+.yes {
+    font-size: 1.25rem;
+    color: #CC4174;
+    margin-left: 1rem;
+}
+
+.no {
+    font-size: 1.25rem;
+    color: #ACB7EB;
+    margin-left: 1rem;
+}
+
+.input-width {
+    width: 14rem !important;
+}
+
+
 
 button {
     width: 5.5rem;
